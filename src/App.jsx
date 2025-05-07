@@ -65,6 +65,10 @@ function App() {
     obtenerNoticias(terminoActivo, idioma, pagina);
   }, [idioma, pagina, terminoActivo]);
 
+  useEffect(() => {
+    document.title = "NewsRadar";
+  }, []);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setTerminoActivo(busqueda.trim());

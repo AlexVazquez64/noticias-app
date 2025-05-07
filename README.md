@@ -17,7 +17,7 @@
 
 ## 🌐 Demo en línea
 
-[https://newsradar.vercel.app](https://newsradar.vercel.app) *(Reemplaza con el enlace real después del deploy)*
+[noticias-app-tawny.vercel.app](noticias-app-tawny.vercel.app)
 
 ## 🚀 Tecnologías
 
