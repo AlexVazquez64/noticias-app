@@ -13,7 +13,7 @@
 
 ## 📸 Captura
 
-![NewsRadar Screenshot](/screenshot.png)
+![NewsRadar Screenshot](./public/screenshot.png)
 
 ## 🌐 Demo en línea
 
