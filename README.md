@@ -1,12 +1,46 @@
-# React + Vite
+# 📰 NewsRadar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**NewsRadar** es una aplicación web responsive construida con React + Vite + TailwindCSS que permite buscar y visualizar noticias en tiempo real a través de la API de [GNews.io](https://gnews.io/).
 
-Currently, two official plugins are available:
+## 🔍 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Búsqueda de noticias por palabra clave
+- Filtros por idioma (Español / Inglés)
+- Paginación de resultados
+- Marcado de noticias como favoritas (persistente con LocalStorage)
+- Notificaciones visuales (toast)
+- Diseño responsive optimizado para móviles y escritorio
 
-## Expanding the ESLint configuration
+## 📸 Captura
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![NewsRadar Screenshot](/screenshot.png)
+
+## 🌐 Demo en línea
+
+[https://newsradar.vercel.app](https://newsradar.vercel.app) *(Reemplaza con el enlace real después del deploy)*
+
+## 🚀 Tecnologías
+
+- React
+- Vite
+- Tailwind CSS
+- GNews API
+
+## 🛠️ Instalación local
+
+```bash
+git clone https://github.com/jandocode/newsradar.git
+cd newsradar
+npm install
+npm run dev
+````
+
+Crea un archivo `.env` y agrega tu clave de API de GNews:
+
+```env
+VITE_GNEWS_API_KEY=tu_clave_api_aquí
+```
+
+## 🧑‍💻 Autor
+
+Creado con 💻 por [jandocode](https://github.com/jandocode)
