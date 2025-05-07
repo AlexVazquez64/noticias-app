@@ -17,7 +17,7 @@
 
 ## 🌐 Demo en línea
 
-[noticias-app-tawny.vercel.app](noticias-app-tawny.vercel.app)
+[noticias-app.vercel.app](noticias-app.vercel.app)
 
 ## 🚀 Tecnologías
 
